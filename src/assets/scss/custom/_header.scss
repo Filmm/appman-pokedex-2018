@@ -1,0 +1,24 @@
+div.ui.header {
+  &.header--add {
+    color: $colorAddButton;
+    display: none;
+  }
+
+  &.icon-delete {
+    color: $colorAddButton;
+    display: none;
+    font-size: 18px;
+  }
+
+  &.homepage-header {
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  &.headerCard-name {
+    font-family: "Gaegu", cursive !important;
+    font-size: 24px;
+    padding: 0;
+  }
+}

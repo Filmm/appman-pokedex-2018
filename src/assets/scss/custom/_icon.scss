@@ -1,0 +1,11 @@
+i.icon {
+  &.icon-add {
+    color: $bottomBarTextColor;
+    font-size: 40px;
+    background-color: $bottomBarBackground;
+    box-shadow: none;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+  }
+}

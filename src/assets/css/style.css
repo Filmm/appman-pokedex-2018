@@ -1,0 +1,78 @@
+div.ui.segment.container-card {
+  background-color: #f3f4f7;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 1px 2px #d5d6dc; }
+  div.ui.segment.container-card:hover {
+    box-shadow: 1px 2px #aeaeae; }
+    div.ui.segment.container-card:hover div.ui.header.header--add,
+    div.ui.segment.container-card:hover div.ui.header.icon-delete {
+      display: block; }
+
+div.ui.header.header--add {
+  color: #dc7777;
+  display: none; }
+
+div.ui.header.icon-delete {
+  color: #dc7777;
+  display: none;
+  font-size: 18px; }
+
+div.ui.header.homepage-header {
+  padding: 20px;
+  text-align: center;
+  font-size: 28px; }
+
+div.ui.header.headerCard-name {
+  font-family: "Gaegu", cursive !important;
+  font-size: 24px;
+  padding: 0; }
+
+i.icon.icon-add {
+  color: #ffffff;
+  font-size: 40px;
+  background-color: #ec5656;
+  box-shadow: none;
+  cursor: pointer;
+  position: relative;
+  top: -40px; }
+
+div.ui.basic.segment.segment-scroll {
+  height: 74.5vh;
+  overflow-y: auto;
+  margin-bottom: 0; }
+
+div.ui.basic.segment.addItem-btn {
+  background-color: #ec5656;
+  text-align: center;
+  height: 65px;
+  margin: 0; }
+
+div.ui.modal.modal-display div.header {
+  border: 0; }
+
+div.ui.modal.modal-display div.actions {
+  border: 0;
+  text-align: center; }
+
+div.input-withImage {
+  position: relative; }
+  div.input-withImage img.ui.image {
+    position: absolute;
+    top: 5px;
+    right: 5px; }
+  div.input-withImage div.ui.fluid.input.input-search input {
+    font-family: "Gaegu", cursive !important;
+    font-size: 22px;
+    padding: 10px; }
+
+table.ui.table.table-card thead th {
+  border-bottom: 0; }
+
+table.ui.table.table-card tr td {
+  border-top: 0;
+  padding-top: 10px;
+  padding-bottom: 0; }
+
+table.ui.table.table-card tfoot th {
+  border-top: 0; }

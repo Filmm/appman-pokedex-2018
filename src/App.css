@@ -1,0 +1,18 @@
+:root {
+  --cardBoxShadow: #d5d6dc;
+  --cardBoxShadowHover: #aeaeae;
+  --cardBackground: #f3f4f7;
+  --colorAddButton: #dc7777;
+}
+
+.div--progress {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  height: 18px;
+}
+
+.progress {
+  background: #f3701a;
+  border-radius: 20px;
+  height: 18px;
+}

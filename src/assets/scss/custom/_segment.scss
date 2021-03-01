@@ -1,0 +1,27 @@
+div.ui.basic.segment {
+  &.segment-scroll {
+    height: 74.5vh;
+    overflow-y: auto;
+    margin-bottom: 0;
+  }
+
+  &.addItem-btn {
+    background-color: $bottomBarBackground;
+    text-align: center;
+    height: 65px;
+    margin: 0;
+  }
+}
+
+div.ui.modal {
+  &.modal-display {
+    div.header {
+      border: 0;
+    }
+
+    div.actions {
+      border: 0;
+      text-align: center;
+    }
+  }
+}

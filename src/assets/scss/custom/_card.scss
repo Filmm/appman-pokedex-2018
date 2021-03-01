@@ -1,0 +1,15 @@
+div.ui.segment.container-card {
+  background-color: $cardBackground;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 1px 2px $cardBoxShadow;
+
+  &:hover {
+    box-shadow: 1px 2px $cardBoxShadowHover;
+
+    div.ui.header.header--add,
+    div.ui.header.icon-delete {
+      display: block;
+    }
+  }
+}

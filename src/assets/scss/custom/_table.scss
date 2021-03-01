@@ -1,0 +1,17 @@
+table.ui.table {
+  &.table-card {
+    thead th {
+      border-bottom: 0;
+    }
+
+    tr td {
+      border-top: 0;
+      padding-top: 10px;
+      padding-bottom: 0;
+    }
+
+    tfoot th {
+      border-top: 0;
+    }
+  }
+}

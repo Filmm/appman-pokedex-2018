@@ -1,0 +1,19 @@
+div.input-withImage {
+  position: relative;
+
+  img.ui.image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  div.ui.fluid.input {
+    &.input-search {
+      input {
+        font-family: "Gaegu", cursive !important;
+        font-size: 22px;
+        padding: 10px;
+      }
+    }
+  }
+}

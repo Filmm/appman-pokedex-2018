@@ -4,16 +4,20 @@
   "private": true,
   "dependencies": {
     "cors": "^2.8.4",
+    "node-sass": "^5.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^3.4.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "api": "node ./src/server.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "scss": "node-sass --watch src/assets/scss -o src/assets/css"
   },
   "eslintConfig": {
     "extends": "react-app"
