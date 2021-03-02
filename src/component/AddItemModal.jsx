@@ -3,7 +3,6 @@ import { Button, Header, Icon, Input, Image, Modal, Segment } from 'semantic-ui-
 import CardComponent from './CardComponent';
 import search from '../search.png';
 
-
 export default class AddItemModal extends Component {
   state = {
     openModal: false,
@@ -28,15 +27,12 @@ export default class AddItemModal extends Component {
     const { openModal, searchValue } = this.state;
     let userList;
 
-    console.log(this.props.user);
-
     if(searchValue === ''){
-      userList = this.props.user && this.props.user;
+      userList = this.props.user;
     }else {
-      userList = this.props.user && this.props.user.filter((item) => item.name.toLowerCase().includes(searchValue.toLowerCase()))
+      userList = this.props.user.filter((item) => item.name.toLowerCase().includes(searchValue.toLowerCase())
+      || item.type.toLowerCase().includes(searchValue.toLowerCase()));
     }
-
-    console.log('userList', userList);
 
     return (
       <Modal

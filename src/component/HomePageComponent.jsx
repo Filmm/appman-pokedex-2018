@@ -10,7 +10,7 @@ class HomePageComponent extends Component {
   }
 
   componentDidMount(){
-    fetch('http://localhost:3030/api/cards')
+  fetch('http://localhost:3030/api/cards')
   .then((response) => response.json())
   .then((data) => this.setState({user: data.cards}, () => console.log(data.cards, this.state.user)));
   }
@@ -19,14 +19,14 @@ class HomePageComponent extends Component {
     this.setState((prevState)=> ({
       itemList: [...prevState.itemList, id],
       user: this.state.user.filter((i) => i !== id)
-    }), ()=> console.log(this.state.itemList, this.state.user))
+    }))
   }
 
   handleRemoveItem = (id) => {
     this.setState((prevState)=> ({
       itemList: this.state.itemList.filter((i) => i !== id),
       user: [...prevState.user, id]
-    }), ()=> console.log(this.state.itemList, this.state.user))
+    }))
   }
 
   render() {
